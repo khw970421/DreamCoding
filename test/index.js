@@ -1,7 +1,7 @@
 let fs = require('fs');
 let testFolder = './'
 
-fs.readdir('testFolder',function(error,filelist){
+fs.readdir(testFolder,function(error,filelist){
   filelist.map(file=>{
     let extension = file.split('.')[file.split('.').length-1];
 
@@ -50,3 +50,5 @@ function checkDuplicated(file,filelist){
 }
 
 
+// npm start 명령어로 실맹 
+// readdir('testFolder') => readdir(testFolder)로 변경
