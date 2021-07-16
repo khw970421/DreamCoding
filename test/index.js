@@ -50,5 +50,5 @@ function checkDuplicated(file,filelist){
 }
 
 
-// npm start 명령어로 실맹 
+// npm start 명령어로 실맹
 // readdir('testFolder') => readdir(testFolder)로 변경
